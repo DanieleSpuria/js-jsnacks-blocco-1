@@ -20,12 +20,12 @@ let sum = 0;
 if (verifica === true) {
   for (let i = 0; i < 4; i++) {
     sum += parseInt(arrayNum[i]);
-  }
+  } console.log(sum);
 } else {
   console.log('Il numero delle cifre inserite è sbagliato');
 }
 
-console.log(sum);
+
 
 
   
